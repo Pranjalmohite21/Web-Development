@@ -380,13 +380,44 @@
         padding: 0 0 8px 0;
       }
     }
+    .audi-img {
+      display: block;
+      width: 90vw;
+      min-width: 320px;
+      max-width: 900px;
+      max-height: 350px;
+      height: auto;
+      border-radius: 22px;
+      margin: 32px auto 16px auto;
+      box-shadow: 0 8px 48px 0 #7f00ff, 0 4px 24px 0 #fff8;
+      background: #fff;
+      object-fit: cover;
+    }
+    .audi-caption {
+      text-align: center;
+      font-size: 1.08rem;
+      color: var(--accent);
+      margin-bottom: 18px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+    .about-fold-bg {
+      background: linear-gradient(rgba(34,0,51,0.65), rgba(34,0,51,0.65)), url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat;
+      position: relative;
+    }
   </style>
 </head>
 <body>
   <!-- Fold 1: About Me -->
-  <section class="fold about-fold">
+  <section class="fold about-fold about-fold-bg">
+    <style>
+      .about-fold-bg {
+        background: linear-gradient(rgba(34,0,51,0.65), rgba(34,0,51,0.65)), url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat;
+        position: relative;
+      }
+    </style>
     <div class="glass-card">
-      <img src="resume.jpeg" alt="Pranjal Mohite" class="profile-img">
       <h1><i class="fa-solid fa-user-graduate"></i> Pranjal Mohite</h1>
       <div class="subtitle"><i class="fa-solid fa-palette"></i> Student | Graphic & UI/UX Designer</div>
       <div class="about-text">
@@ -436,7 +467,13 @@
     </div>
   </section>
   <!-- Fold 4: Cars -->
-  <section class="fold cars-fold">
+  <section class="fold cars-fold cars-fold-bg">
+    <style>
+      .cars-fold-bg {
+        background: linear-gradient(rgba(34,0,51,0.65), rgba(34,0,51,0.65)), url('https://images.unsplash.com/photo-1461632830798-3adb3034e4c8?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat;
+        position: relative;
+      }
+    </style>
     <div class="glass-card">
       <h2><i class="fa-solid fa-car"></i> My Love for Cars</h2>
       <div class="cars-content">
